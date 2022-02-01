@@ -1,0 +1,53 @@
+.bg-title{
+    background-image: url(1.jpg);
+}
+.bg-title{
+    padding: 50px 0;
+}
+.bg-image {
+
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.textRight {
+   position: absolute;
+  right: 16px;
+  color: white;
+}
+ul li{
+    list-style: none;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom:15px;
+     text-align: center;
+}
+ li a:active{
+     background-color: grey;
+}
+li a{
+    color: black;
+}
+li:hover{
+    background-color: grey;
+
+}
+ li:after {
+    content: "";
+    display: block;
+    width: 4px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #e3e3e3;
+}
